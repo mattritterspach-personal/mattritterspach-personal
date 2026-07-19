@@ -24,6 +24,36 @@ Most businesses know they need AI. Few know where to start, what to ignore, or h
 |---------|-------------|
 | [AI Business Readiness Assessment](https://github.com/mattritterspach-personal/ai-readiness-assessment) | Scored framework across 6 domains — strategy, data, operations, talent, governance, and tooling — that identifies an organization's highest-leverage AI entry points |
 
+### 🧩 AI Marketing Agents (the Forgeline suite)
+A full-service AI marketing agency built as composable agents. Each repo is a standalone Python package with a real tool-use agent loop on the Anthropic API, a CLI, and an offline test suite with CI.
+
+| Project | Description |
+|---------|-------------|
+| [agency-os](https://github.com/mattritterspach-personal/agency-os) | Orchestrator. Turns a campaign brief into a dependency-ordered task graph and routes work to nine specialist agents |
+| [seo-agent](https://github.com/mattritterspach-personal/seo-agent) | SEO audits and keyword research |
+| [content-agent](https://github.com/mattritterspach-personal/content-agent) | Staged content pipeline: outline, draft, edit, SEO pass |
+| [email-agent](https://github.com/mattritterspach-personal/email-agent) | Branching email sequences with spam scoring and validation |
+| [social-agent](https://github.com/mattritterspach-personal/social-agent) | Platform-aware social copy and content calendars |
+| [adcopy-agent](https://github.com/mattritterspach-personal/adcopy-agent) | Paid ad copy with format validation and A/B matrices |
+| [brandvoice-agent](https://github.com/mattritterspach-personal/brandvoice-agent) | Style guide enforcement and unsubstantiated claims flagging |
+| [analytics-agent](https://github.com/mattritterspach-personal/analytics-agent) | Campaign metrics, trend detection, and anomaly flagging |
+| [competitor-agent](https://github.com/mattritterspach-personal/competitor-agent) | Positioning briefs and messaging gap analysis |
+| [research-agent](https://github.com/mattritterspach-personal/research-agent) | Qualitative research synthesis into themes and personas |
+
+### 🛠️ LLM Infrastructure
+| Project | Description |
+|---------|-------------|
+| [llm-evals](https://github.com/mattritterspach-personal/llm-evals) | Eval harness for LLM apps: checkers, model-graded rubrics, regression diffs, CI-friendly reports |
+| [ragkit](https://github.com/mattritterspach-personal/ragkit) | Retrieval-augmented generation with pure-Python BM25 and citation verification |
+| [agent-memory](https://github.com/mattritterspach-personal/agent-memory) | SQLite memory layer for agents with hybrid keyword, recency, and importance scoring |
+| [promptvault](https://github.com/mattritterspach-personal/promptvault) | Prompt registry: versioning, templating, diffs, snapshot tests |
+
+### 📊 Quant & Systems
+| Project | Description |
+|---------|-------------|
+| [marketsim](https://github.com/mattritterspach-personal/marketsim) | Prediction market research toolkit: limit order book, LMSR market maker, strategy simulation, calibration metrics |
+| [flowrunner](https://github.com/mattritterspach-personal/flowrunner) | Minimal DAG task runner: dependency-ordered parallel execution, retries with backoff, run manifests |
+
 ### 📈 Marketing
 | Project | Description |
 |---------|-------------|
